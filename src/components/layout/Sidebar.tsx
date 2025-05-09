@@ -95,7 +95,7 @@ export default function Sidebar({ isMobile, onClose }: SidebarProps) {
           ))}
         </div>
 
-        <div className="pb-2 mb-2 border-t border-slate-200 dark:border-slate-700 pt-2">
+        {/* <div className="pb-2 mb-2 border-t border-slate-200 dark:border-slate-700 pt-2">
           <p className="text-xs uppercase font-medium text-slate-500 dark:text-slate-400 ml-2 mb-2">
             Reports
           </p>
@@ -109,9 +109,9 @@ export default function Sidebar({ isMobile, onClose }: SidebarProps) {
               <span>{item.name}</span>
             </a>
           ))}
-        </div>
+        </div> */}
 
-        <div className="border-t border-slate-200 dark:border-slate-700 pt-2">
+        {/* <div className="border-t border-slate-200 dark:border-slate-700 pt-2">
           <p className="text-xs uppercase font-medium text-slate-500 dark:text-slate-400 ml-2 mb-2">
             Settings
           </p>
@@ -125,7 +125,7 @@ export default function Sidebar({ isMobile, onClose }: SidebarProps) {
               <span>{item.name}</span>
             </a>
           ))}
-        </div>
+        </div> */}
       </nav>
     </aside>
   );
